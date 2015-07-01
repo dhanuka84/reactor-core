@@ -23,9 +23,9 @@
     </dependency>
   </dependencies>
   <modules>
+    <module>org.reactor.core.di</module>
   	<module>org.reactor.core.templates</module>
     <module>org.reactor.core.osgi</module>
-    <module>org.reactor.core.di</module>
     <module>org.reactor.core.clustering</module>
   </modules>
 </project>
