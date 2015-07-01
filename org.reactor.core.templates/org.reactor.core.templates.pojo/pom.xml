@@ -4,13 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.reactor.core</groupId>
-    <artifactId>reactor-core</artifactId>
+    <artifactId>org.reactor.core.templates</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>org.reactor.core</groupId>
-  <artifactId>org.reactor.core.templates</artifactId>
+  <artifactId>org.reactor.core.templates.pojo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>org.reactor.core.templates</name>
+  <name>org.reactor.core.templates.pojo</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,10 +23,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>org.reactor.core.templates.threads</module>
-  	<module>org.reactor.core.templates.logging</module>
-  	<module>org.reactor.core.templates.pojo</module>
-  </modules>
 </project>
